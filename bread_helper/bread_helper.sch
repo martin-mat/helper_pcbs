@@ -285,17 +285,6 @@ netname=GND
 N 65900 55900 66100 55900 4
 N 66100 55900 66100 53000 4
 N 64900 55900 65000 55900 4
-C 51800 53500 1 0 0 regulator_negative_fixed.sym
-{
-T 52400 54400 5 10 1 1 0 0 1
-value=Reg 3.3V
-T 51800 54400 5 10 1 1 0 0 1
-refdes=U7
-T 52000 54400 5 8 0 0 0 0 1
-footprint=SOT23
-T 52000 55700 5 8 0 0 0 0 1
-symversion=3.0
-}
 N 52500 52200 52500 53600 4
 C 52400 51900 1 0 0 gnd-1.sym
 {
@@ -320,7 +309,7 @@ refdes=C9
 T 53800 52800 5 10 0 0 90 0 1
 symversion=0.1
 T 54700 52600 5 10 0 0 0 0 1
-footprint=RADIAL_CAN 200
+footprint=0805
 }
 C 48700 38800 1 0 0 switch-pushbutton-no-1.sym
 {
@@ -850,3 +839,12 @@ T 47200 40700 5 10 0 0 0 0 1
 netname=VCC_B
 }
 N 48300 40700 48300 40300 4
+C 51800 53500 1 0 0 Regulator_662K.sym
+{
+T 52300 54500 5 10 0 1 0 0 1
+device=662K
+T 52400 54300 5 10 1 1 0 0 1
+refdes=U7
+T 52700 54200 5 10 0 1 0 0 1
+footprint=SOT23
+}
